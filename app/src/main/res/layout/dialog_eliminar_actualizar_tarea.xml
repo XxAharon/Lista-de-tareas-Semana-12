@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edit_text_tarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de la tarea"
+        android:inputType="textCapSentences"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha (yyyy-MM-dd)"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/spinner_prioridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/prioridad_opciones"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_estado_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarea Completada"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

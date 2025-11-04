@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Lista de tareas - Semana 12</string>
+    <string name="text_title_tarea">Tareas</string>
+    <string name="text_title_fecha">Fecha</string>
+    <string name="text_title_estado">Estado</string>
+    <string name="text_title_prioridad">Prioridad</string>
+    <string name="text_button_agregar">Agregar tarea</string>
+    <string name="text_button_eliminar">Eliminar tarea</string>
+
+    <string-array name="prioridad_opciones">
+        <item>ALTA</item>
+        <item>MEDIA</item>
+        <item>BAJA</item>
+    </string-array>
 </resources>
